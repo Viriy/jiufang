@@ -194,7 +194,8 @@ body{background:url(../images/bg.jpg) 50% fixed repeat-y}
 .box_wrap .icon{margin-bottom:.14rem}
 
 .tab_wrap a:not(:last-child){margin-right:.133333rem}
-.tab_wrap .mui-segmented-control{border:none;border-bottom:1px solid #746258;padding:0 .32rem;border-radius:0;height:.986667rem}
+.tab_wrap .mui-segmented-control{display:block;border:none;padding:0 .32rem;border-radius:0;position: relative}
+.tab_wrap .mui-segmented-control:before{content:'';position: absolute;width: 100%;height: 1px;background:#746258;left:0;bottom:0}
 .tab_wrap .mui-segmented-control .mui-control-item{border:none}
 .tab_wrap .mui-control-content{padding:0 .333333rem}
 .tab_wrap h1{height:1.066667rem;margin:.213333rem 0}
