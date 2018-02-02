@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>xxx酒坊</title>
+    <title>历史收益</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -56,48 +56,48 @@
         <i class="sprite back"></i>
         <i class="sprite btn_brown icon icon-home f34 txt_sd_dark tc white"></i>
     </footer>
-    <div class="mui-content mui-fullscreen">
-        <div class="box_wrap f50 tc colorlighter" flex="box:mean">
-            <div>
-                <p class="icon icon-zsy"></p>
-                <p><span>8888.88</span><i class="icon icon-yuan"></i></p>
+    <div class="mui-content mui-row mui-fullscreen">
+        <div class="tab_wrap mt">
+            <div class="mui-segmented-control f40">
+                <a class="mui-control-item mui-active icon icon-rsy" href="#item1"></a>
+                <a class="mui-control-item icon icon-tjlb" href="#item2"></a>
             </div>
-            <div>
-                <p class="icon icon-date"></p>
-                <p>2018-2-1</p>
+            <div id="item1" class="mui-control-content mui-active">
+                <div class="table_wrap f26 mt10 mb40">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="icon icon-sj f36"></th>
+                                <th class="icon icon-zcb f36"></th>
+                                <th class="icon icon-scb f36"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2018-02-01</td>
+                                <td>60</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>2018-02-01</td>
+                                <td>60</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>2018-02-01</td>
+                                <td>60</td>
+                                <td>20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="white mlr24">
-            <a class="sprite btn_orange icon icon-open f46 tc" href=""></a>
-            <a class="sprite btn_main icon icon-close f46 tc" href=""></a>
-        </div>
-        <div class="menu_wrap colorlight tc f46" flex="wrap">
-            <a href="">
-                <i class="i_menu menu1"></i>
-                <p class="icon icon-menu1"></p>
-            </a>
-            <a href="">
-                <i class="i_menu menu2"></i>
-                <p class="icon icon-menu2"></p>
-            </a>
-            <a href="">
-                <i class="i_menu menu3"></i>
-                <p class="icon icon-menu3"></p>
-            </a>
-            <a href="">
-                <i class="i_menu menu4"></i>
-                <p class="icon icon-menu4"></p>
-            </a>
-            <a href="">
-                <i class="i_menu menu5"></i>
-                <p class="icon icon-menu5"></p>
-            </a>
-            <a href="">
-                <i class="i_menu menu6"></i>
-                <p class="icon icon-menu6"></p>
-            </a>
+            <div id="item2" class="mui-control-content">
+                推荐列表
+            </div>
         </div>
     </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/mui.min.js"></script>
     <script src="js/main.js"></script>
 </body>
