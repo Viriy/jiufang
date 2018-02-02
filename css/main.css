@@ -204,7 +204,7 @@ body{background:url(../images/bg.jpg) 50% fixed repeat-y}
 
 .list_wrap li{background:url('../images/box.png');height:2.8rem;background-size:100%;padding:0 .48rem}
 .list_wrap p{line-height:.506667rem}
-.list_wrap h2{margin-bottom:.266667rem}
+.list_wrap h2{margin-bottom:.266667rem;font-weight:700;line-height: 1em}
 .list_wrap .i_not_active,.list_wrap .i_activated{width:1.866667rem;height:1.866667rem;background-repeat:no-repeat;margin-right:.266667rem}
 .i_not_active{background:url('../images/not_active.jpg');background-size:cover}
 .i_activated{background:url('../images/activated.jpg');background-size:cover}
