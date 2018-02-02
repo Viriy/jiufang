@@ -151,8 +151,8 @@ img{display:block;max-width:100%}
 
 .box_shadow{-webkit-box-shadow:0 0 .266667rem rgba(0,0,0,.15);-moz-box-shadow:0 0 .266667rem rgba(0,0,0,.15);box-shadow:0 0 .266667rem rgba(0,0,0,.15)}
 
-.txt_sd_orange{text-shadow:0 0 .1rem #d15c0f}
-.txt_sd_dark,.tab_wrap .mui-segmented-control .mui-control-item.mui-active{text-shadow:0 0 .1rem rgba(10,33,3,.83)}
+.txt_sd_orange,.sprite.btn_t_orange{text-shadow:0 0.03rem .1rem #d15c0f}
+.txt_sd_dark,.tab_wrap .mui-segmented-control .mui-control-item.mui-active,.sprite.btn_green{text-shadow:0 0.03rem .1rem rgba(10,33,3,.83)}
 .txt_sd_white,.menu_wrap a,.list_wrap .grey,.tab_wrap .mui-segmented-control .mui-control-item{text-shadow:0 0 .08rem #fff}
 
 .h_header~.mui-content{padding-top:2.586667rem}
@@ -173,7 +173,7 @@ img{display:block;max-width:100%}
 .btn_main{height:1.28rem;line-height:1.146667rem;width:4.586667rem;background-position:-5.706667rem -2.56rem}
 .t_bg1{height:1.173333rem;width:10rem}
 .sprite.btn_green{height:1.026667rem;line-height:1.026667rem;width:1.866667rem;background-position:-6.546667rem -3.906667rem}
-.sprite.btn_t_orange{height:.973333rem;line-height:.973333rem;width:1.813333rem;background-position:-8.48rem -3.906667rem}
+.sprite.btn_t_orange{height:.973333rem;line-height:.9rem;width:1.813333rem;background-position:-8.48rem -3.906667rem}
 
 .t_bg,.f_footer{height:1.386667rem}
 .t_bg{background:url('../images/t_bg.jpg') no-repeat;background-size:cover}
