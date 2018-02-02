@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="img" IsPhone="false" SpriteImgFileType="Png" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="icon_profit.png" LocationX="223" LocationY="324" />
+    <Sprite Path="icon_win_jars.png" LocationX="223" LocationY="250" />
+    <Sprite Path="icon_vip.png" LocationX="292" LocationY="290" />
+    <Sprite Path="icon_wine.png" LocationX="292" LocationY="250" />
+    <Sprite Path="back.png" LocationX="428" LocationY="292" />
+    <Sprite Path="avatar.png" LocationX="0" LocationY="92" />
+    <Sprite Path="btn_brown.png" LocationX="0" LocationY="296" />
+    <Sprite Path="tab.png" LocationX="166" LocationY="171" />
+    <Sprite Path="tab_active.png" LocationX="166" LocationY="92" />
+    <Sprite Path="btn_orange.png" LocationX="428" LocationY="92" />
+    <Sprite Path="btn_main.png" LocationX="428" LocationY="192" />
+    <Sprite Path="t_bg1.png" LocationX="0" LocationY="0" />
+  </SpriteList>
+</SpriteFile>
